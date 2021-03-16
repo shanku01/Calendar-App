@@ -1,15 +1,15 @@
 export default function MyList(props){
     return(
         <div className="my-list">
-            <div className="time">
-            <p >{props.timing}</p>
+            <div className="time grid-item">
+            <p >{props.data.timing}</p>
             </div>
-            <div className="data">
-            <p className="heading">Subject Code: {props.suject_code}</p>
-            <p>Subject : {props.subject_name}</p>
-            <p>Faculty : {props.teacher_name}</p>
-            <p>Period Type : {props.period_type}</p>
-            <p>Subject Type : {props.subject_type}</p>
+            <div className="data grid-item">
+            <p className="heading">Subject Code: {props.data.subject_code}</p>
+            <p><span className="bold">Subject</span> : {props.data.subject_name}</p>
+            <p><span className="bold">Faculty</span>: {props.data.teacher_name}</p>
+            <p><span className="bold">Period Type</span>: {props.data.period_type}</p>
+            <p><span className="bold">Subject Type </span>: {props.data.subject_type}</p>
             </div>
         </div>
     )

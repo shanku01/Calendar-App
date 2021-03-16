@@ -26,3 +26,39 @@ code {
   font-size: 20px;
   border-radius: 3px;
 }
+
+.date{
+  font-size: 50px;
+  text-align: center;
+}
+
+.my-list{
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 20px;
+  box-shadow: 1px 1px 10px 1px grey;
+  margin-bottom:20px;
+  width: 100%;
+}
+
+.time{
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+
+.heading{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.data{
+  display: grid;
+  text-align: right;
+  margin-right: 40px;
+}
