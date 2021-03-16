@@ -1,7 +1,6 @@
 import {useState,useEffect} from "react";
 import axios from "axios"
 import Calendar from 'react-calendar';
-import 'react-calendar/dist/Calendar.css';
 import Modal from "react-modal";
 import ModalComponent from "./component/ModalComponent";
 
